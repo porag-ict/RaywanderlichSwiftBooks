@@ -1,1 +1,8 @@
 
+Creating a dispatch queue:
+let label = "myQueue"
+let queue = DispatchQueue(label:label)
+
+
+Concurrent queue:
+let queue = DispatchQueue(label:label,attributes: .concurrent)
